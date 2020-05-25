@@ -31,3 +31,10 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+Modified:
+
+	WhatsApp Direct Message and Dynamic Year by
+	www.alkathirikhalid.com | @alkathirikhalid
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
