@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="init()">
 
 		<!-- Sidebar -->
 			<section id="sidebar">
@@ -133,7 +133,7 @@
 							<h2>Get in touch</h2>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form>
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -149,9 +149,9 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
 										</ul>
 									</form>
+									<button onclick="message()">Send WhatsApp Message</>
 								</section>
 								<section>
 									<ul class="contact">
@@ -167,8 +167,8 @@
 										</li>
 										<li>
 											<h3>Phone / WhatsApp</h3>
-											<span>+ 60- 1113270969</span><br />
-											<span>+ 60- 179179304</span>
+											<span onclick="contact(601113270969)">+ 60- 1113270969</span><br />
++											<span onclick="contact(60179179304)">+ 60- 179179304</span>
 										</li>
 									</ul>
 								</section>
@@ -182,7 +182,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Amal Thoib Enterprises . All rights reserved.</li><li>003 062 096-U</li>
+						<li>&copy; 2019-<currentyear>2020</currentyear> Amal Thoib Enterprises . All rights reserved.</li><li>003 062 096-U</li>
 					</ul>
 				</div>
 			</footer>
@@ -195,6 +195,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modified.js"></script>
 
 	</body>
 </html>
